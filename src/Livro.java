@@ -11,6 +11,6 @@ public class Livro {
         System.out.println("Preco: R$" + preco);
         System.out.println("Paginas: " + paginas);
         System.out.println("Autor: " + autor);
-        System.out.println("--------");
+        System.out.println("-------------------------");
     }
 }

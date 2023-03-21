@@ -9,14 +9,8 @@ public class LivroTeste {
         meuLivro.resumo = "...";
         meuLivro.autor = "J. R. Tolkien";
 
+        meuLivro.preco = meuLivro.preco - (meuLivro.preco * 0.15);
         meuLivro.exibirDados();
-
-        System.out.println("\nMeu Livro:\n");
-        System.out.println("Nome: " + meuLivro.nome);
-        System.out.println("Resumo: " + meuLivro.resumo);
-        System.out.println("Preco: R$" + meuLivro.preco);
-        System.out.println("Paginas: " + meuLivro.paginas);
-        System.out.println("Autor: " + meuLivro.autor);
 
         Livro livroFavorito = new Livro();
         livroFavorito.nome = "Diário de um banana";
@@ -25,11 +19,8 @@ public class LivroTeste {
         livroFavorito.preco = 59.99;
         livroFavorito.autor = "Jeff Kinney";
 
-        System.out.println("\nLivro Favorito:\n" );
-        System.out.println("Nome: " + livroFavorito.nome);
-        System.out.println("Resumo: " + livroFavorito.resumo);
-        System.out.println("Preco: R$" + livroFavorito.preco);
-        System.out.println("Paginas: " + livroFavorito.paginas);
-        System.out.println("Autor: " + livroFavorito.autor);
+        livroFavorito.preco = livroFavorito.preco - (livroFavorito.preco * 0.1);
+        livroFavorito.exibirDados();
+
     }
 }
