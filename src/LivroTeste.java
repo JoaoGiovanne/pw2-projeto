@@ -20,6 +20,7 @@ public class LivroTeste {
         livroFavorito.autor = "Jeff Kinney";
 
         livroFavorito.aplicarDesconto(0.25);
+        livroFavorito.taxaImpressao(0.8);
         livroFavorito.exibirDados();
 
     }
