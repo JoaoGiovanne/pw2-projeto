@@ -9,7 +9,7 @@ public class LivroTeste {
         meuLivro.resumo = "...";
         meuLivro.autor = "J. R. Tolkien";
 
-        meuLivro.preco = meuLivro.preco - (meuLivro.preco * 0.15);
+        meuLivro.aplicarDesconto(0.15);
         meuLivro.exibirDados();
 
         Livro livroFavorito = new Livro();
@@ -19,7 +19,7 @@ public class LivroTeste {
         livroFavorito.preco = 59.99;
         livroFavorito.autor = "Jeff Kinney";
 
-        livroFavorito.preco = livroFavorito.preco - (livroFavorito.preco * 0.1);
+        livroFavorito.aplicarDesconto(0.25);
         livroFavorito.exibirDados();
 
     }
